@@ -2,7 +2,7 @@
 #########
 
 Reference
-*.ipynb_checkpoints
+.ipynb_checkpoints
 web_scraping_incl_tweets - Shortcut.lnk
 udemy course
 starting
