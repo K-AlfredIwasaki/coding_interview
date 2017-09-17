@@ -4,4 +4,13 @@ class LinkedList:
         self.next = None
 
     def __str__(self):
-        return "( " + str(self.content) + str(self.next) + " )"
+
+    	current = self
+    	result = []
+    	while current != None:
+    		result.append(str(current.content))
+    		current = current.next
+
+    	return "=>".join(result)
+
+
