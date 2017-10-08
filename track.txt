@@ -1,0 +1,28 @@
+Priorities
+### 1 Graph
+### 2 Merge Sort
+### 3 Permutation
+### 4 Tree
+
+Arrays
+1.01 Binary Search --- Easy
+1.02 Find Maximum in Sliding Window 
+1.03 Search rotated array
+1.04 Find smallest common number
+1.05 Rotate Array
+1.06 Find low/high index --- twisted binary search
+1.07 Move zeros to left
+1.08 Find maximum single sell profit
+1.09 Implement Quicksort
+1.10 Merge Overlapping Intervals
+1.11 Sum of Two Values
+Linked List
+
+Tree
+6.08 Print Tree Perimeter ---10/8--------- Retry --- key is how not to print leaf (root.left != None, root.right != None)
+
+Dynamic Programming 
+9.01 Fibonacci numbers --- One more time --- key is to store n_1 and n_2
+9.02 Largest Sum Subarray --- Retry --- Similar to 1.02, 1.08
+
+
