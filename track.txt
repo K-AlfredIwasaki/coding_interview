@@ -18,10 +18,13 @@ Arrays
 1.11 Sum of Two Values
 
 Linked List
-2.0
+2.0 
 
 Math & Stats
-3.01 Find kth permutation
+x2 on 10/8 3.01 Find kth permutation --- key is (k-1) / blocksize
+retry --- x2 on 10/8 3.02 Integer Division --- key is quotient <<= 1 (equivalent of q = q + 1) and quotient >>= 1
+retry --- x2 on 10/8 3.04 All Sum Combinations --- keys are for loop version recursion, results.pop(), range(start, target)
+
 
 Tree
 6.05 Level Order Traversal of Binary Tree --- 10/8 --- easy. simple BFS
