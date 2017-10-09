@@ -19,6 +19,7 @@ Arrays
 Linked List
 
 Tree
+6.05 Level Order Traversal of Binary Tree
 6.08 Print Tree Perimeter ---10/8--------- Retry --- key is how not to print leaf (root.left != None, root.right != None)
 
 Graph
