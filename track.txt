@@ -21,17 +21,17 @@ Linked List
 2.0 
 
 Math & Stats
-x2 on 10/8 3.01 Find kth permutation --- key is (k-1) / blocksize
+          x2 on 10/8 3.01 Find kth permutation --- key is (k-1) / blocksize
 retry --- x2 on 10/8 3.02 Integer Division --- key is quotient <<= 1 (equivalent of q = q + 1) and quotient >>= 1
 retry --- x2 on 10/8 3.04 All Sum Combinations --- keys are for loop version recursion, results.pop(), range(start, target)
 
 
 Tree
-6.05 Level Order Traversal of Binary Tree --- 10/8 --- easy. simple BFS
-6.08 Print Tree Perimeter ---10/8--------- Retry --- key is how not to print leaf (root.left != None, root.right != None)
+Easy ---  x1 on 10/8 6.05 Level Order Traversal of Binary Tree ---  --- easy. simple BFS
+Retry --- x1 on 10/8 6.08 Print Tree Perimeter --- key is how not to print leaf (root.left != None, root.right != None)
 
 Graph
-7.02 Minimum Spanning Tree --- 10/8 ------- Retry very hard --- Use PriorityQueue(Heap)
+Retry --- x1 on 10/8 7.02 Minimum Spanning Tree ------- Retry very hard --- Use PriorityQueue(Heap)
 
 Dynamic Programming 
 9.01 Fibonacci numbers --- One more time --- key is to store n_1 and n_2
