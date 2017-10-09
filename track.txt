@@ -16,10 +16,15 @@ Arrays
 1.09 Implement Quicksort
 1.10 Merge Overlapping Intervals
 1.11 Sum of Two Values
+
 Linked List
+2.0
+
+Math & Stats
+3.01 Find kth permutation
 
 Tree
-6.05 Level Order Traversal of Binary Tree
+6.05 Level Order Traversal of Binary Tree --- 10/8 --- easy. simple BFS
 6.08 Print Tree Perimeter ---10/8--------- Retry --- key is how not to print leaf (root.left != None, root.right != None)
 
 Graph
