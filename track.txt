@@ -21,6 +21,9 @@ Linked List
 Tree
 6.08 Print Tree Perimeter ---10/8--------- Retry --- key is how not to print leaf (root.left != None, root.right != None)
 
+Graph
+7.02 Minimum Spanning Tree --- 10/8 ------- Retry very hard --- Use PriorityQueue(Heap)
+
 Dynamic Programming 
 9.01 Fibonacci numbers --- One more time --- key is to store n_1 and n_2
 9.02 Largest Sum Subarray --- Retry --- Similar to 1.02, 1.08
