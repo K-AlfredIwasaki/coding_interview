@@ -42,6 +42,11 @@ Dynamic Programming
 9.01 Fibonacci numbers --- One more time --- key is to store n_1 and n_2
 Retry --- x1 9.02 Largest Sum Subarray --- Similar to 1.02, 1.08
 9.03 MaxSum Subsequence - Nonadjacent Elements -------- Key is result = max(n_1, n_2 + current_num)
+Retry ---x1 10/9 9.05 Coin Changing Problem --- Two version --- one is recursion (back tracking) and the other is dynamic programming (table)
+
+Miscellaneous
+Almost ok --- 10.02 Make Columns and Rows Zeros --- no efficient solution --- key is find index of zero cols and rows
+Almost ok --- 10.03 Search in a Matrix --- key is to start from the top left to utilize its unique property (=> down is higher, right is lower)
 
 
 
