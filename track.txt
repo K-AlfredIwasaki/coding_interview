@@ -4,7 +4,12 @@ Priorities
 ### 3 Permutation
 ### 4 Tree
 
-Arrays
+10/11 Review LinkedList + Graph
+- Merge Sort / Reverse k Elements
+- 
+
+
+Arrays -------------------------------------------------------------------------------------------------------
 1.01 Binary Search --- Easy
 1.02 Find Maximum in Sliding Window 
 1.03 Search rotated array
@@ -17,39 +22,40 @@ Arrays
 1.10 Merge Overlapping Intervals
 1.11 Sum of Two Values
 
-Linked List
-2.0 
+Linked List -------------------------------------------------------------------------------------------------------
 
-Math & Stats
+
+Math & Stats -------------------------------------------------------------------------------------------------------
           x2 on 10/8 3.01 Find kth permutation --- key is (k-1) / blocksize
-Retry --- x2 on 10/8 3.02 Integer Division --- key is quotient <<= 1 (equivalent of q = q + 1) and quotient >>= 1
-Retry --- x2 on 10/8 3.04 All Sum Combinations --- keys are for loop version recursion, results.pop(), range(start, target)
+          x3 on 10/10 3.02 Integer Division --- key is quotient <<= 1 (equivalent of q = q + 1) and quotient >>= 1
+          x3 on 10/10 3.04 All Sum Combinations --- keys are for loop version recursion, results.pop(), range(start, target)
+Retry --- x2 on 10/10 3.07 All Subsets --- key is keeping input array --- back tracking
+          x2 on 10/10 3.10 Calculate Square Root --- key is binary search approach --- lower/upper bound
 
-
-Tree
+Tree -------------------------------------------------------------------------------------------------------
 Retry --- 5.01 Check if two binary trees are identical --- two version --- recursion and inorder/preorder
 Retry --- x1 on 10/10 5.02 Write an Inorder Iterator for a Binary Tree --- Iterative Inorder Travesal with Stack
 Retry --- with 5.02   5.03 Iterative Inorder Traversal --- very similar to 5.02
 Easy ---  x1 on 10/8 5.05 Level Order Traversal of Binary Tree ---  --- easy. simple BFS
 Retry --- x1 on 10/8 5.08 Print Tree Perimeter --- key is how not to print leaf (root.left != None, root.right != None)
 
-Graph
+Graph -------------------------------------------------------------------------------------------------------
 Retry --- x1 on 10/8 7.02 Minimum Spanning Tree ------- very hard --- Use PriorityQueue(Heap)
 
-Back Tracking
-Not done year --- 8.01 boggle ------ prefix search 
+Back Tracking -------------------------------------------------------------------------------------------------------
+Not done yet --- 8.01 boggle ------ prefix search 
 https://stackoverflow.com/questions/18066603/fastest-way-to-search-python-dict-with-partial-keyword
 IMPORTANT Retry --- x1 on 10/9 8.02 All Possible Parentheses ------ Keys are recursion, (if, if, if), pop, temp = current.copy() when putting in result[]
 
-Dynamic Programming 
+Dynamic Programming -------------------------------------------------------------------------------------------------------
 9.01 Fibonacci numbers --- One more time --- key is to store n_1 and n_2
-Retry --- x1 9.02 Largest Sum Subarray --- Similar to 1.02, 1.08
+Retry --- x1 on 9.02 Largest Sum Subarray --- Similar to 1.02, 1.08
 9.03 MaxSum Subsequence - Nonadjacent Elements -------- Key is result = max(n_1, n_2 + current_num)
-Retry ---x1 10/9 9.05 Coin Changing Problem --- Two version --- one is recursion (back tracking) and the other is dynamic programming (table)
+Retry --- x1 on 10/9 9.05 Coin Changing Problem --- Two version --- one is recursion (back tracking) and the other is dynamic programming (table)
 
-Miscellaneous
-Almost ok --- 10.02 Make Columns and Rows Zeros --- no efficient solution --- key is find index of zero cols and rows
-Almost ok --- 10.03 Search in a Matrix --- key is to start from the top left to utilize its unique property (=> down is higher, right is lower)
+Miscellaneous -------------------------------------------------------------------------------------------------------
+Almost ok --- x1 on 10/10 10.02 Make Columns and Rows Zeros --- no efficient solution --- key is find index of zero cols and rows
+Almost ok --- x1 on 10/10 10.03 Search in a Matrix --- key is to start from the top left to utilize its unique property (=> down is higher, right is lower)
 
 
 
