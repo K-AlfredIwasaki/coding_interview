@@ -25,7 +25,8 @@ Arrays -------------------------------------------------------------------------
 1.11 Sum of Two Values
 
 Linked List -------------------------------------------------------------------------------------------------------
-
+          x4 on 10/11 2.08 Merge two sorted linkedlist
+Retry --- x2 on 10/11 2.09 Merge sort --- keys are two base cases (head == None and head.next == None) and a sequence (split, recursion, merge)
 
 Math & Stats -------------------------------------------------------------------------------------------------------
           x2 on 10/8 3.01 Find kth permutation --- key is (k-1) / blocksize
