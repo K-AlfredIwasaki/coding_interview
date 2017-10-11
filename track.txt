@@ -25,42 +25,46 @@ Arrays -------------------------------------------------------------------------
 1.11 Sum of Two Values
 
 Linked List -------------------------------------------------------------------------------------------------------
-          x4 on 10/11 2.08 Merge two sorted linkedlist
-Retry --- x2 on 10/11 2.09 Merge sort --- keys are two base cases (head == None and head.next == None) and a sequence (split, recursion, merge)
+          x4 on 10/11  2.08 Merge two sorted linkedlist
+Retry --- x2 on 10/11  2.09 Merge sort --- keys are two base cases (head == None and head.next == None) and a sequence (split, recursion, merge)
 
 Math & Stats -------------------------------------------------------------------------------------------------------
-          x2 on 10/8 3.01 Find kth permutation --- key is (k-1) / blocksize
-          x3 on 10/10 3.02 Integer Division --- key is quotient <<= 1 (equivalent of q = q + 1) and quotient >>= 1
-          x3 on 10/10 3.04 All Sum Combinations --- keys are for loop version recursion, results.pop(), range(start, target)
-Retry --- x2 on 10/10 3.07 All Subsets --- key is keeping input array --- back tracking
-          x2 on 10/10 3.10 Calculate Square Root --- key is binary search approach --- lower/upper bound
+          x2 on 10/8   3.01 Find kth permutation --- key is (k-1) / blocksize
+          x3 on 10/10  3.02 Integer Division --- key is quotient <<= 1 (equivalent of q = q + 1) and quotient >>= 1
+          x3 on 10/10  3.04 All Sum Combinations --- keys are for loop version recursion, results.pop(), range(start, target)
+Retry --- x2 on 10/10  3.07 All Subsets --- key is keeping input array --- back tracking
+          x2 on 10/10  3.10 Calculate Square Root --- key is binary search approach --- lower/upper bound
 
 Tree -------------------------------------------------------------------------------------------------------
-Retry --- 5.01 Check if two binary trees are identical --- two version --- recursion and inorder/preorder
-Retry --- x1 on 10/10 5.02 Write an Inorder Iterator for a Binary Tree --- Iterative Inorder Travesal with Stack
-Retry --- with 5.02   5.03 Iterative Inorder Traversal --- very similar to 5.02
-Easy ---  x1 on 10/8 5.05 Level Order Traversal of Binary Tree ---  --- easy. simple BFS
-Retry --- x1 on 10/8 5.08 Print Tree Perimeter --- key is how not to print leaf (root.left != None, root.right != None)
+Similar 5.02, 5.03, 5.06
+
+          x2 on 10/11  5.01 Check if two binary trees are identical --- two version --- recursion and inorder/preorder --- key is to consider root1 != None but root2 == None
+Retry --- x1 on 10/10  5.02 Write an Inorder Iterator for a Binary Tree --- Iterative Inorder Travesal with Stack
+Retry --- x1 on NA     5.03 Iterative Inorder Traversal --- very similar to 5.02
+Easy ---  x1 on 10/8   5.05 Level Order Traversal of Binary Tree ---  easy. simple BFS
+Almost -- x2 on 10/11  5.06 Is BST? -- Key is iterative inoder traversal + track the most recent value + try different solutions -- recursion + tracking
+Retry --- x1 on 10/8   5.08 Print Tree Perimeter --- key is how not to print leaf (root.left != None, root.right != None)
+
 
 Graph -------------------------------------------------------------------------------------------------------
-Retry --- x1 on 10/8 7.02 Minimum Spanning Tree ------- very hard --- Use PriorityQueue(Heap)
+Retry --- x1 on 10/8   7.02 Minimum Spanning Tree ------- very hard --- Use PriorityQueue(Heap)
 
 Back Tracking -------------------------------------------------------------------------------------------------------
-Not done yet --- 8.01 boggle ------ prefix search 
+Not done yet ---       8.01 boggle ------ prefix search 
 https://stackoverflow.com/questions/18066603/fastest-way-to-search-python-dict-with-partial-keyword
 IMPORTANT Retry --- x1 on 10/9 8.02 All Possible Parentheses ------ Keys are recursion, (if, if, if), pop, temp = current.copy() when putting in result[]
 
 Dynamic Programming -------------------------------------------------------------------------------------------------------
-Retry                 9.01 Fibonacci numbers --- key is to store n_1 and n_2
-Retry --- x1 on       9.02 Largest Sum Subarray --- Similar to 1.02, 1.08
-                      9.03 MaxSum Subsequence - Nonadjacent Elements -------- Key is result = max(n_1, n_2 + current_num)
-Retry --- x1 on 10/10 9.04 Game Scoring --- key is table or dp
-Retry --- x1 on 10/9  9.05 Coin Changing Problem --- Two version --- one is recursion (back tracking) and the other is dynamic programming (table)
+Retry                  9.01 Fibonacci numbers --- key is to store n_1 and n_2
+Retry --- x1 on        9.02 Largest Sum Subarray --- Similar to 1.02, 1.08
+                       9.03 MaxSum Subsequence - Nonadjacent Elements -------- Key is result = max(n_1, n_2 + current_num)
+Retry --- x1 on 10/10  9.04 Game Scoring --- key is table or dp
+Retry --- x1 on 10/9   9.05 Coin Changing Problem --- Two version --- one is recursion (back tracking) and the other is dynamic programming (table)
 
 
 Miscellaneous -------------------------------------------------------------------------------------------------------
-Almost ok --- x1 on 10/10 10.02 Make Columns and Rows Zeros --- no efficient solution --- key is find index of zero cols and rows
-Almost ok --- x1 on 10/10 10.03 Search in a Matrix --- key is to start from the top left to utilize its unique property (=> down is higher, right is lower)
+Almost --- x1 on 10/10 10.02 Make Columns and Rows Zeros --- no efficient solution --- key is find index of zero cols and rows
+Almost --- x1 on 10/10 10.03 Search in a Matrix --- key is to start from the top left to utilize its unique property (=> down is higher, right is lower)
 
 
 
