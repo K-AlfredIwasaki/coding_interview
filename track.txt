@@ -4,9 +4,11 @@ Priorities
 ### 3 Permutation
 ### 4 Tree
 
-10/11 Review LinkedList + Graph
-- Merge Sort / Reverse k Elements
-- 
+10/11 Review Graph + LinkedList  - Merge Sort / Reverse k Elements
+10/12 Review Graph + Trees
+10/13 Review Graph + Arrays
+10/14 Review Graph + Math
+
 
 
 Arrays -------------------------------------------------------------------------------------------------------
@@ -48,10 +50,12 @@ https://stackoverflow.com/questions/18066603/fastest-way-to-search-python-dict-w
 IMPORTANT Retry --- x1 on 10/9 8.02 All Possible Parentheses ------ Keys are recursion, (if, if, if), pop, temp = current.copy() when putting in result[]
 
 Dynamic Programming -------------------------------------------------------------------------------------------------------
-9.01 Fibonacci numbers --- One more time --- key is to store n_1 and n_2
-Retry --- x1 on 9.02 Largest Sum Subarray --- Similar to 1.02, 1.08
-9.03 MaxSum Subsequence - Nonadjacent Elements -------- Key is result = max(n_1, n_2 + current_num)
-Retry --- x1 on 10/9 9.05 Coin Changing Problem --- Two version --- one is recursion (back tracking) and the other is dynamic programming (table)
+Retry                 9.01 Fibonacci numbers --- key is to store n_1 and n_2
+Retry --- x1 on       9.02 Largest Sum Subarray --- Similar to 1.02, 1.08
+                      9.03 MaxSum Subsequence - Nonadjacent Elements -------- Key is result = max(n_1, n_2 + current_num)
+Retry --- x1 on 10/10 9.04 Game Scoring --- key is table or dp
+Retry --- x1 on 10/9  9.05 Coin Changing Problem --- Two version --- one is recursion (back tracking) and the other is dynamic programming (table)
+
 
 Miscellaneous -------------------------------------------------------------------------------------------------------
 Almost ok --- x1 on 10/10 10.02 Make Columns and Rows Zeros --- no efficient solution --- key is find index of zero cols and rows
