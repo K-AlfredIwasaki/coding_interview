@@ -33,8 +33,10 @@ Arrays -------------------------------------------------------------------------
 1.11 Sum of Two Values
 
 Linked List -------------------------------------------------------------------------------------------------------
-          x4 on 10/11  2.08 Merge two sorted linkedlist
-Retry --- x2 on 10/11  2.09 Merge sort --- keys are two base cases (head == None and head.next == None) and a sequence (split, recursion, merge)
+          x2 on 10/12  2.05 Intersection Point of Two Lists
+OK        x4 on 10/12  2.08 Merge two sorted linkedlist
+OK        x2 on 10/12  2.09 Merge sort --- keys are two base cases (head == None and head.next == None) and a sequence (split, recursion, merge)
+Retry --- x4 on 10/12  2.12 Reverse k Elements --- keys are big_head, c_tail, p_tail
 
 
 Math & Stats -------------------------------------------------------------------------------------------------------
