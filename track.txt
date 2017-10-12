@@ -9,6 +9,14 @@ Priorities
 10/13 Review Graph + Arrays
 10/14 Review Graph + Math
 
+Summarize --- Perumutation -----------------------------------------------------------------------------------
+- 3.01 Find kth permutation      ---  block size
+- 3.04 All Sum Combinations      ---  back tracking
+- 3.06 Permute String            ---  back tracking
+- 3.07 All Subsets               ---
+- 8.02 All Possible Parentheses  ---
+- 9.04 Game Scoring              ---
+- 9.05 Cooin Changing Problem    --- 
 
 
 Arrays -------------------------------------------------------------------------------------------------------
@@ -37,7 +45,7 @@ Retry --- x2 on 10/10  3.07 All Subsets --- key is keeping input array --- back 
           x2 on 10/10  3.10 Calculate Square Root --- key is binary search approach --- lower/upper bound
 
 Tree -------------------------------------------------------------------------------------------------------
-Similar 5.02, 5.03, 5.06
+Similar 5.02, 5.03, 5.06 In-order Traversal
 
           x2 on 10/11  5.01 Check if two binary trees are identical --- two version --- recursion and inorder/preorder --- key is to consider root1 != None but root2 == None
 Retry --- x1 on 10/10  5.02 Write an Inorder Iterator for a Binary Tree --- Iterative Inorder Travesal with Stack
