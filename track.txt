@@ -28,6 +28,7 @@ Linked List --------------------------------------------------------------------
           x4 on 10/11  2.08 Merge two sorted linkedlist
 Retry --- x2 on 10/11  2.09 Merge sort --- keys are two base cases (head == None and head.next == None) and a sequence (split, recursion, merge)
 
+
 Math & Stats -------------------------------------------------------------------------------------------------------
           x2 on 10/8   3.01 Find kth permutation --- key is (k-1) / blocksize
           x3 on 10/10  3.02 Integer Division --- key is quotient <<= 1 (equivalent of q = q + 1) and quotient >>= 1
@@ -41,9 +42,10 @@ Similar 5.02, 5.03, 5.06
           x2 on 10/11  5.01 Check if two binary trees are identical --- two version --- recursion and inorder/preorder --- key is to consider root1 != None but root2 == None
 Retry --- x1 on 10/10  5.02 Write an Inorder Iterator for a Binary Tree --- Iterative Inorder Travesal with Stack
 Retry --- x1 on NA     5.03 Iterative Inorder Traversal --- very similar to 5.02
-Easy ---  x1 on 10/8   5.05 Level Order Traversal of Binary Tree ---  easy. simple BFS
+Easy ---  x1 on 10/8   5.05 Level Order Traversal of Binary Tree ---  simple BFS
 Almost -- x2 on 10/11  5.06 Is BST? -- Key is iterative inoder traversal + track the most recent value + try different solutions -- recursion + tracking
 Retry --- x1 on 10/8   5.08 Print Tree Perimeter --- key is how not to print leaf (root.left != None, root.right != None)
+Retry --- x2 on 10/11  5.10 Serialize/Deserialize Binary Tree --- key is recursion for both
 
 
 Graph -------------------------------------------------------------------------------------------------------
@@ -67,4 +69,6 @@ Almost --- x1 on 10/10 10.02 Make Columns and Rows Zeros --- no efficient soluti
 Almost --- x1 on 10/10 10.03 Search in a Matrix --- key is to start from the top left to utilize its unique property (=> down is higher, right is lower)
 
 
+
+Recursive solution has O(h) memory complexity as it will consume memory on the stack up to the height of binary tree h. It will be O(logn) for balanced tree and in worst case can be O(n).
 
