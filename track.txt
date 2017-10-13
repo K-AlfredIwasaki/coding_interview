@@ -51,10 +51,13 @@ Similar 5.02, 5.03, 5.06 In-order Traversal
 
           x2 on 10/11  5.01 Check if two binary trees are identical --- two version --- recursion and inorder/preorder --- key is to consider root1 != None but root2 == None
 Retry --- x1 on 10/10  5.02 Write an Inorder Iterator for a Binary Tree --- Iterative Inorder Travesal with Stack
-Retry --- x1 on NA     5.03 Iterative Inorder Traversal --- very similar to 5.02
+Retry --- x1 on 10/10  5.03 Iterative Inorder Traversal --- very similar to 5.02
+Retry --- x2 on 10/13  5.04 Inorder Successor BST --- 1) iterative inorder traversal, 2) top down + findmin
 Easy ---  x1 on 10/8   5.05 Level Order Traversal of Binary Tree ---  simple BFS
+Retry --- x2 on 10/13  5.06 Is BST? --- one solution is min-/max-bound and the other is use global = prev
+Retry ----x1 on 10/13  5.07 Convert Binary Tree To Doubly Linked List --- keys are recursive + concatenation
 Almost -- x2 on 10/11  5.06 Is BST? -- Key is iterative inoder traversal + track the most recent value + try different solutions -- recursion + tracking
-Retry --- x1 on 10/8   5.08 Print Tree Perimeter --- key is how not to print leaf (root.left != None, root.right != None)
+Almost -- x2 on 10/13  5.08 Print Tree Perimeter --- key is how not to print leaf (root.left != None, root.right != None)
 Retry --- x2 on 10/11  5.10 Serialize/Deserialize Binary Tree --- key is recursion for both
 
 
@@ -62,9 +65,10 @@ Graph --------------------------------------------------------------------------
 Retry --- x1 on 10/8   7.02 Minimum Spanning Tree ------- very hard --- Use PriorityQueue(Heap)
 
 Back Tracking -------------------------------------------------------------------------------------------------------
-Not done yet ---       8.01 boggle ------ prefix search 
+
 https://stackoverflow.com/questions/18066603/fastest-way-to-search-python-dict-with-partial-keyword
-IMPORTANT Retry --- x1 on 10/9 8.02 All Possible Parentheses ------ Keys are recursion, (if, if, if), pop, temp = current.copy() when putting in result[]
+Not done yet ---          8.01 boggle ------ prefix search 
+Must Retry --- x1 on 10/9 8.02 All Possible Parentheses ------ Keys are recursion, (if, if, if), pop, temp = current.copy() when putting in result[]
 
 Dynamic Programming -------------------------------------------------------------------------------------------------------
 Retry                  9.01 Fibonacci numbers --- key is to store n_1 and n_2
@@ -77,7 +81,6 @@ Retry --- x1 on 10/9   9.05 Coin Changing Problem --- Two version --- one is rec
 Miscellaneous -------------------------------------------------------------------------------------------------------
 Almost --- x1 on 10/10 10.02 Make Columns and Rows Zeros --- no efficient solution --- key is find index of zero cols and rows
 Almost --- x1 on 10/10 10.03 Search in a Matrix --- key is to start from the top left to utilize its unique property (=> down is higher, right is lower)
-
 
 
 Recursive solution has O(h) memory complexity as it will consume memory on the stack up to the height of binary tree h. It will be O(logn) for balanced tree and in worst case can be O(n).
