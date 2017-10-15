@@ -20,17 +20,17 @@ Summarize --- Perumutation -----------------------------------------------------
 
 
 Arrays -------------------------------------------------------------------------------------------------------
-1.01 Binary Search --- Easy
-1.02 Find Maximum in Sliding Window 
-1.03 Search rotated array
-1.04 Find smallest common number
-1.05 Rotate Array
-1.06 Find low/high index --- twisted binary search
-1.07 Move zeros to left
-1.08 Find maximum single sell profit
-1.09 Implement Quicksort
-1.10 Merge Overlapping Intervals
-1.11 Sum of Two Values
+          x3 on 10/14  1.01 Binary Search --- while start <= end --- include "="
+Retry     x3 on 10/14  1.02 Find Maximum in Sliding Window  --- window[0] > window[1] > window[2] > .....
+                       1.03 Search rotated array
+          x3 on 10/14  1.04 Find smallest common number --- three trackers. increment the smallest
+          x3 on 10/14  1.05 Rotate Array --- key is while start < end. all reverse first then
+		       1.06 Find low/high index --- twisted binary search
+                       1.07 Move zeros to left
+                       1.08 Find maximum single sell profit
+                       1.09 Implement Quicksort
+Retry     x3 on 10/14  1.10 Merge Overlapping Intervals --- breakdown
+                       1.11 Sum of Two Values
 
 Linked List -------------------------------------------------------------------------------------------------------
           x2 on 10/12  2.05 Intersection Point of Two Lists
@@ -63,7 +63,7 @@ Retry --- x1 on 10/14  5.11 Connect All Siblings --- Two trackers: one for paren
 
 
 Graph -------------------------------------------------------------------------------------------------------
-Retry --- x1 on 10/8   7.02 Minimum Spanning Tree ------- very hard --- Use PriorityQueue(Heap)
+Retry --- x4 on 10/14   7.02 Minimum Spanning Tree ------- very hard --- Use PriorityQueue(Heap)
 
 Back Tracking -------------------------------------------------------------------------------------------------------
 
