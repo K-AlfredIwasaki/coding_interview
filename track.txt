@@ -9,6 +9,8 @@ Priorities
 10/13 Review Graph + Arrays
 10/14 Review Graph + Math
 
+
+
 Summarize --- Perumutation -----------------------------------------------------------------------------------
 - 3.01 Find kth permutation      ---  block size
 - 3.04 All Sum Combinations      ---  back tracking
@@ -47,7 +49,8 @@ Retry --- x2 on 10/10  3.07 All Subsets --- key is keeping input array --- back 
           x2 on 10/10  3.10 Calculate Square Root --- key is binary search approach --- lower/upper bound
 
 Tree -------------------------------------------------------------------------------------------------------
-Similar 5.02, 5.03, 5.06 In-order Traversal
+Similar 5.02, 5.03, 5.06, 5.13 In-order Traversal
+Important problems --- 
 
           x2 on 10/11  5.01 Check if two binary trees are identical --- two version --- recursion and inorder/preorder --- key is to consider root1 != None but root2 == None
 Retry --- x1 on 10/10  5.02 Write an Inorder Iterator for a Binary Tree --- Iterative Inorder Travesal with Stack
@@ -60,8 +63,14 @@ Almost -- x2 on 10/11  5.06 Is BST? -- Key is iterative inoder traversal + track
 Almost -- x2 on 10/13  5.08 Print Tree Perimeter --- key is how not to print leaf (root.left != None, root.right != None)
 Retry --- x2 on 10/11  5.10 Serialize/Deserialize Binary Tree --- key is recursion for both
 Retry --- x1 on 10/14  5.11 Connect All Siblings --- Two trackers: one for parents and the other for children
+Retry --- x2 on 10/15  5.13 Nth Highest in BST --- BST property and static variable or 
 
 Not done -x1 on 10/15  5.16 N-ary Tree to Binary Tree --- 
+
+*** Recursive solution has O(h) memory complexity as it will consume memory on the stack up to the height of the binary tree h
+*** Thus O(longn) for a balanced tree and in worst can be O(n)
+*** BST property --- In-order traversal
+
 
 Graph -------------------------------------------------------------------------------------------------------
 Retry --- x4 on 10/14   7.02 Minimum Spanning Tree ------- very hard --- Use PriorityQueue(Heap)
