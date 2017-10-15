@@ -59,6 +59,7 @@ Retry ----x1 on 10/13  5.07 Convert Binary Tree To Doubly Linked List --- keys a
 Almost -- x2 on 10/11  5.06 Is BST? -- Key is iterative inoder traversal + track the most recent value + try different solutions -- recursion + tracking
 Almost -- x2 on 10/13  5.08 Print Tree Perimeter --- key is how not to print leaf (root.left != None, root.right != None)
 Retry --- x2 on 10/11  5.10 Serialize/Deserialize Binary Tree --- key is recursion for both
+Retry --- x1 on 10/14  5.11 Connect All Siblings --- Two trackers: one for parents and the other for children
 
 
 Graph -------------------------------------------------------------------------------------------------------
