@@ -61,6 +61,7 @@ Almost -- x2 on 10/13  5.08 Print Tree Perimeter --- key is how not to print lea
 Retry --- x2 on 10/11  5.10 Serialize/Deserialize Binary Tree --- key is recursion for both
 Retry --- x1 on 10/14  5.11 Connect All Siblings --- Two trackers: one for parents and the other for children
 
+Not done -x1 on 10/15  5.16 N-ary Tree to Binary Tree --- 
 
 Graph -------------------------------------------------------------------------------------------------------
 Retry --- x4 on 10/14   7.02 Minimum Spanning Tree ------- very hard --- Use PriorityQueue(Heap)
