@@ -1,87 +1,105 @@
 Priorities
-### 1 Graph
-### 2 Merge Sort
-### 3 Permutation
-### 4 Tree
+### 1 Get ready for twitter coding challenge on Monday --- quickly review all the problems
+### 2 After that, back to Medium to Hard Problem focus --- LeetCode
 
-10/11 Review Graph + LinkedList  - Merge Sort / Reverse k Elements
-10/12 Review Graph + Trees
-10/13 Review Graph + Arrays
-10/14 Review Graph + Math
+10/16 Mon Permutations
+10/17 Tue String or DP
+10/18 Wed DP or String
+10/19 
+
+----- To do list
+Permutations
+Merge Sort / Quick Sort / Insertion Sort
+One new difficult problem  + One difficult review
 
 
+Important Problems -------------------------------------------------------------------------------------------
+Tree       --- 5.10 Serialize, 5.03 Iterative Inorder Traversal, 5.06 Is BST?
+LinkedList --- 2.04 Insertion sort, 2.09 Merge sort, 2.12 Reverse k Elements
+Array      --- 1.02 Sliding Window, 1.09 Quick sort, 1.10 Merge intervals
 
-Summarize --- Perumutation -----------------------------------------------------------------------------------
-- 3.01 Find kth permutation      ---  block size
-- 3.04 All Sum Combinations      ---  back tracking
+----- Summarize --- Perumutation -----------------------------------------------------------------------------------
+- 3.01 Find kth permutation      ---  (k-1) / blocksize
+- 3.04 All Sum Combinations      ---  for loop version recursion, results.pop(), range(start, target)
 - 3.06 Permute String            ---  back tracking
-- 3.07 All Subsets               ---
+- 3.07 All Subsets               ---  
 - 8.02 All Possible Parentheses  ---
 - 9.04 Game Scoring              ---
-- 9.05 Cooin Changing Problem    --- 
+- 9.05 Coin Changing Problem    --- 
 
 
-Arrays -------------------------------------------------------------------------------------------------------
-          x3 on 10/14  1.01 Binary Search --- while start <= end --- include "="
-Retry     x3 on 10/14  1.02 Find Maximum in Sliding Window  --- window[0] > window[1] > window[2] > .....
-                       1.03 Search rotated array
-          x3 on 10/14  1.04 Find smallest common number --- three trackers. increment the smallest
-          x3 on 10/14  1.05 Rotate Array --- key is while start < end. all reverse first then
-		       1.06 Find low/high index --- twisted binary search
-                       1.07 Move zeros to left
-                       1.08 Find maximum single sell profit
-                       1.09 Implement Quicksort
-Retry     x3 on 10/14  1.10 Merge Overlapping Intervals --- breakdown
-                       1.11 Sum of Two Values
+----- Arrays -------------------------------------------------------------------------------------------------------
+          x3 on 10/14  E 1.01 Binary Search --- while start <= end --- include "="
+Retry     x3 on 10/14  M 1.02 Find Maximum in Sliding Window  --- window[0] > window[1] > window[2] > .....
+                       M 1.03 Search rotated array
+          x3 on 10/14  E 1.04 Find smallest common number --- three trackers. increment the smallest
+          x3 on 10/14  E 1.05 Rotate Array --- key is while start < end. all reverse first then
+		       M 1.06 Find low/high index --- twisted binary search
+                       E 1.07 Move zeros to left
+                       M 1.08 Find maximum single sell profit
+                       M 1.09 Implement Quicksort
+Retry     x3 on 10/14  M 1.10 Merge Overlapping Intervals --- breakdown
+                       N 1.11 Sum of Two Values
 
-Linked List -------------------------------------------------------------------------------------------------------
-          x2 on 10/12  2.05 Intersection Point of Two Lists
-OK        x4 on 10/12  2.08 Merge two sorted linkedlist
-OK        x2 on 10/12  2.09 Merge sort --- keys are two base cases (head == None and head.next == None) and a sequence (split, recursion, merge)
-Retry --- x4 on 10/12  2.12 Reverse k Elements --- keys are big_head, c_tail, p_tail
+----- Linked List -------------------------------------------------------------------------------------------------------
+*** Tracking pointers! Be careful especially after removing or combining
+*** Think some special cases --- do something on the first node
+*** Insert or delete node at any point in a linked list
 
 
-Math & Stats -------------------------------------------------------------------------------------------------------
-          x2 on 10/8   3.01 Find kth permutation --- key is (k-1) / blocksize
-          x3 on 10/10  3.02 Integer Division --- key is quotient <<= 1 (equivalent of q = q + 1) and quotient >>= 1
-          x3 on 10/10  3.04 All Sum Combinations --- keys are for loop version recursion, results.pop(), range(start, target)
-Retry --- x2 on 10/10  3.07 All Subsets --- key is keeping input array --- back tracking
-          x2 on 10/10  3.10 Calculate Square Root --- key is binary search approach --- lower/upper bound
+Easy      x2 on 10/15  E 2.01 Reverse a singly linked list --- track current_head because we add nodes on the current_head not current_tail
+Easy      x2 on 10/15  E 2.02 Remove Duplicates from a Linked List --- hash table
+Easy      x2 on 10/15  E 2.03 Delete node with a given key --- special case: remove the first node
+          x2 on 10/15  M 2.04 Insertion Sort --- two linkedlist: original and new. pick node from the original and insert it to the new one by one.
+          x2 on 10/12  E 2.05 Intersection Point of Two Lists
+Retry     x2 on 10/15  M 2.07 Swap Nth Node with Head ------ It can be confusing --- many pointers
+OK        x4 on 10/12  M 2.08 Merge two sorted linkedlist
+OK        x2 on 10/12  M 2.09 Merge sort --- keys are two base cases (head == None and head.next == None) and a sequence (split, recursion, merge)
+Retry --- x4 on 10/12  M 2.12 Reverse k Elements --- keys are big_head, c_tail, p_tail
 
-Tree -------------------------------------------------------------------------------------------------------
-Similar 5.02, 5.03, 5.06, 5.13 In-order Traversal
-Important problems --- 
 
-          x2 on 10/11  5.01 Check if two binary trees are identical --- two version --- recursion and inorder/preorder --- key is to consider root1 != None but root2 == None
-Retry --- x1 on 10/10  5.02 Write an Inorder Iterator for a Binary Tree --- Iterative Inorder Travesal with Stack
-Retry --- x1 on 10/10  5.03 Iterative Inorder Traversal --- very similar to 5.02
-Retry --- x2 on 10/13  5.04 Inorder Successor BST --- 1) iterative inorder traversal, 2) top down + findmin
-Easy ---  x1 on 10/8   5.05 Level Order Traversal of Binary Tree ---  simple BFS
-Retry --- x2 on 10/13  5.06 Is BST? --- one solution is min-/max-bound and the other is use global = prev
-Retry ----x1 on 10/13  5.07 Convert Binary Tree To Doubly Linked List --- keys are recursive + concatenation
-Almost -- x2 on 10/11  5.06 Is BST? -- Key is iterative inoder traversal + track the most recent value + try different solutions -- recursion + tracking
-Almost -- x2 on 10/13  5.08 Print Tree Perimeter --- key is how not to print leaf (root.left != None, root.right != None)
-Retry --- x2 on 10/11  5.10 Serialize/Deserialize Binary Tree --- key is recursion for both
-Retry --- x1 on 10/14  5.11 Connect All Siblings --- Two trackers: one for parents and the other for children
-Retry --- x2 on 10/15  5.13 Nth Highest in BST --- BST property and static variable or 
+----- Math & Stats -------------------------------------------------------------------------------------------------------
+          x2 on 10/8   M 3.01 Find kth permutation --- key is (k-1) / blocksize
+          x3 on 10/10  M 3.02 Integer Division --- key is quotient <<= 1 (equivalent of q = q + 1) and quotient >>= 1
+          x3 on 10/10  M 3.04 All Sum Combinations --- for loop version recursion, results.pop(), range(start, target)
+Retry --- x2 on 10/10  M 3.07 All Subsets --- key is keeping input array --- back tracking
+          x2 on 10/10  M 3.10 Calculate Square Root --- key is binary search approach --- lower/upper bound
 
-Not done -x1 on 10/15  5.16 N-ary Tree to Binary Tree --- 
+----- Tree -------------------------------------------------------------------------------------------------------
 
 *** Recursive solution has O(h) memory complexity as it will consume memory on the stack up to the height of the binary tree h
 *** Thus O(longn) for a balanced tree and in worst can be O(n)
-*** BST property --- In-order traversal
+*** BST property --- In-order traversal to nodes in an ascending order
+*** Static varabile
+*** How to stop recursion (cannot stop just make sure return value back)
+
+Similar 5.02, 5.03, 5.06, 5.13 In-order Traversal
+
+          x2 on 10/11  M 5.01 Check if two binary trees are identical --- two version --- recursion and inorder/preorder --- key is to consider root1 != None but root2 == None
+Retry --- x1 on 10/10  M 5.02 Write an Inorder Iterator for a Binary Tree --- Iterative Inorder Travesal with Stack
+Retry --- x1 on 10/10  M 5.03 Iterative Inorder Traversal --- very similar to 5.02
+Retry --- x2 on 10/13  M 5.04 Inorder Successor BST --- 1) iterative inorder traversal, 2) top down + findmin
+Easy ---  x1 on 10/8   M 5.05 Level Order Traversal of Binary Tree ---  simple BFS
+Retry --- x2 on 10/13  M 5.06 Is BST? --- one solution is min-/max-bound and the other is use global = prev
+Retry ----x1 on 10/13  H 5.07 Convert Binary Tree To Doubly Linked List --- keys are recursive + concatenation
+Almost -- x2 on 10/13  M 5.08 Print Tree Perimeter --- key is how not to print leaf (root.left != None, root.right != None)
+Retry --- x2 on 10/11  H 5.10 Serialize/Deserialize Binary Tree --- key is recursion for both
+Retry --- x1 on 10/14  M 5.11 Connect All Siblings --- Two trackers: one for parents and the other for children
+Retry --- x2 on 10/15  M 5.13 Nth Highest in BST --- BST property and static variable
+Retry --- x2 on 10/15  M 5.14 Mirror binary tree nodes --- inplace: pre-oder/post-order swaping, new: pre-oder
+Not done -x1 on 10/15  H 5.16 N-ary Tree to Binary Tree --- 
 
 
-Graph -------------------------------------------------------------------------------------------------------
+----- Graph -------------------------------------------------------------------------------------------------------
 Retry --- x4 on 10/14   7.02 Minimum Spanning Tree ------- very hard --- Use PriorityQueue(Heap)
 
-Back Tracking -------------------------------------------------------------------------------------------------------
+----- Back Tracking -------------------------------------------------------------------------------------------------------
 
 https://stackoverflow.com/questions/18066603/fastest-way-to-search-python-dict-with-partial-keyword
 Not done yet ---          8.01 boggle ------ prefix search 
 Must Retry --- x1 on 10/9 8.02 All Possible Parentheses ------ Keys are recursion, (if, if, if), pop, temp = current.copy() when putting in result[]
 
-Dynamic Programming -------------------------------------------------------------------------------------------------------
+----- Dynamic Programming -------------------------------------------------------------------------------------------------------
 Retry                  9.01 Fibonacci numbers --- key is to store n_1 and n_2
 Retry --- x1 on        9.02 Largest Sum Subarray --- Similar to 1.02, 1.08
                        9.03 MaxSum Subsequence - Nonadjacent Elements -------- Key is result = max(n_1, n_2 + current_num)
@@ -89,10 +107,10 @@ Retry --- x1 on 10/10  9.04 Game Scoring --- key is table or dp
 Retry --- x1 on 10/9   9.05 Coin Changing Problem --- Two version --- one is recursion (back tracking) and the other is dynamic programming (table)
 
 
-Miscellaneous -------------------------------------------------------------------------------------------------------
+----- Miscellaneous -------------------------------------------------------------------------------------------------------
 Almost --- x1 on 10/10 10.02 Make Columns and Rows Zeros --- no efficient solution --- key is find index of zero cols and rows
 Almost --- x1 on 10/10 10.03 Search in a Matrix --- key is to start from the top left to utilize its unique property (=> down is higher, right is lower)
 
 
-Recursive solution has O(h) memory complexity as it will consume memory on the stack up to the height of binary tree h. It will be O(logn) for balanced tree and in worst case can be O(n).
+
 
