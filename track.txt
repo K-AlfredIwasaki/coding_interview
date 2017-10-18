@@ -23,8 +23,8 @@ Array      --- 1.02 Sliding Window, 1.09 Quick sort, 1.10 Merge intervals
 - 3.04 All Sum Combinations      ---  for loop version recursion, results.pop(), range(start, target)
 - 3.06 Permute String            ---  back tracking
 - 3.07 All Subsets               ---  
-- 8.02 All Possible Parentheses  ---
-- 9.04 Game Scoring              ---
+- 8.02 All Possible Parentheses  --- 
+- 9.04 Game Scoring              ---  This problem is really hard for me --- The order matters!
 - 9.05 Coin Changing Problem    --- 
 
 
@@ -96,14 +96,14 @@ Retry --- x4 on 10/14   7.02 Minimum Spanning Tree ------- very hard --- Use Pri
 ----- Back Tracking -------------------------------------------------------------------------------------------------------
 
 https://stackoverflow.com/questions/18066603/fastest-way-to-search-python-dict-with-partial-keyword
-Not done yet ---          8.01 boggle ------ prefix search 
-Must Retry --- x1 on 10/9 8.02 All Possible Parentheses ------ Keys are recursion, (if, if, if), pop, temp = current.copy() when putting in result[]
+Retry ---              H 8.01 boggle                   ------ generate all possible combinations and check they are in dict
+Retry --- x2 on 10/15  H 8.02 All Possible Parentheses ------ Keys are recursion, (if, if, if), pop, temp = current.copy() when putting in result[]
 
 ----- Dynamic Programming -------------------------------------------------------------------------------------------------------
 Retry                  9.01 Fibonacci numbers --- key is to store n_1 and n_2
 Retry --- x1 on        9.02 Largest Sum Subarray --- Similar to 1.02, 1.08
                        9.03 MaxSum Subsequence - Nonadjacent Elements -------- Key is result = max(n_1, n_2 + current_num)
-Retry --- x1 on 10/10  9.04 Game Scoring --- key is table or dp
+Retry --- x1 on 10/15  9.04 Game Scoring --- key is table or dp. the order matters
 Retry --- x1 on 10/9   9.05 Coin Changing Problem --- Two version --- one is recursion (back tracking) and the other is dynamic programming (table)
 
 
