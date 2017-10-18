@@ -103,8 +103,8 @@ Retry --- x2 on 10/15  H 8.02 All Possible Parentheses ------ Keys are recursion
 Retry                  9.01 Fibonacci numbers --- key is to store n_1 and n_2
 Retry --- x1 on        9.02 Largest Sum Subarray --- Similar to 1.02, 1.08
                        9.03 MaxSum Subsequence - Nonadjacent Elements -------- Key is result = max(n_1, n_2 + current_num)
-Retry --- x1 on 10/15  9.04 Game Scoring --- key is table or dp. the order matters
-Retry --- x1 on 10/9   9.05 Coin Changing Problem --- Two version --- one is recursion (back tracking) and the other is dynamic programming (table)
+Retry --- x1 on 10/15  9.04 Game Scoring ---                          key is table or dp. the order matters
+Retry --- x2 on 10/15  9.05 Coin Changing Problem --- Two version --- one is recursion (back tracking) and the other is dynamic programming (table) same to 9.04(sequence does matter)
 
 
 ----- Miscellaneous -------------------------------------------------------------------------------------------------------
