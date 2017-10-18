@@ -3,14 +3,22 @@ Priorities
 ### 2 After that, back to Medium to Hard Problem focus --- LeetCode
 
 10/16 Mon Permutations
-10/17 Tue String or DP
-10/18 Wed DP or String
-10/19 
+10/17 Tue Permutations and DP                            --- W271 Catch up video class
+10/18 Wed Merge Sort / Quick Sort / Insertion Sort       --- W271 Start Work On it
+10/19 Thu  
+10/20 Fri
+10/21 Sat 
+10/22 Sun Email to SmartNews
+10/23 Mon Raise Tech Interview                               W271 Due
+10/24 Tue Super prep for Interview / Alumni Meetup
+10/25 Wed SmartNews Take Home
+
+********* 10/24 Wed Take a Test  *************************************
+
 
 ----- To do list
-Permutations
-Merge Sort / Quick Sort / Insertion Sort
-One new difficult problem  + One difficult review
+Done ---- Permutations
+Math problems
 
 
 Important Problems -------------------------------------------------------------------------------------------
@@ -25,12 +33,12 @@ Array      --- 1.02 Sliding Window, 1.09 Quick sort, 1.10 Merge intervals
 - 3.07 All Subsets               ---  
 - 8.02 All Possible Parentheses  --- 
 - 9.04 Game Scoring              ---  This problem is really hard for me --- The order matters!
-- 9.05 Coin Changing Problem    --- 
+- 9.05 Coin Changing Problem     ---  Very similar to 9.05 --- the order doesn't matter
 
 
 ----- Arrays -------------------------------------------------------------------------------------------------------
           x3 on 10/14  E 1.01 Binary Search --- while start <= end --- include "="
-Retry     x3 on 10/14  M 1.02 Find Maximum in Sliding Window  --- window[0] > window[1] > window[2] > .....
+Retry     x4 on 10/17  M 1.02 Find Maximum in Sliding Window  --- window[0] > window[1] > window[2] > .....Be careful to handle "index" or "value"
                        M 1.03 Search rotated array
           x3 on 10/14  E 1.04 Find smallest common number --- three trackers. increment the smallest
           x3 on 10/14  E 1.05 Rotate Array --- key is while start < end. all reverse first then
@@ -38,7 +46,7 @@ Retry     x3 on 10/14  M 1.02 Find Maximum in Sliding Window  --- window[0] > wi
                        E 1.07 Move zeros to left
                        M 1.08 Find maximum single sell profit
                        M 1.09 Implement Quicksort
-Retry     x3 on 10/14  M 1.10 Merge Overlapping Intervals --- breakdown
+          x4 on 10/17  M 1.10 Merge Overlapping Intervals --- breakdown
                        N 1.11 Sum of Two Values
 
 ----- Linked List -------------------------------------------------------------------------------------------------------
@@ -61,7 +69,8 @@ Retry --- x4 on 10/12  M 2.12 Reverse k Elements --- keys are big_head, c_tail, 
 ----- Math & Stats -------------------------------------------------------------------------------------------------------
           x2 on 10/8   M 3.01 Find kth permutation --- key is (k-1) / blocksize
           x3 on 10/10  M 3.02 Integer Division --- key is quotient <<= 1 (equivalent of q = q + 1) and quotient >>= 1
-          x3 on 10/10  M 3.04 All Sum Combinations --- for loop version recursion, results.pop(), range(start, target)
+          x2 on 10/17  M 3.03 Pythagorean Triplets --- Sort and then Binary search approach for each item from the tail
+          x3 on 10/10  M 3.05 All Sum Combinations --- for loop version recursion, results.pop(), range(start, target)
 Retry --- x2 on 10/10  M 3.07 All Subsets --- key is keeping input array --- back tracking
           x2 on 10/10  M 3.10 Calculate Square Root --- key is binary search approach --- lower/upper bound
 
@@ -89,6 +98,8 @@ Retry --- x2 on 10/15  M 5.13 Nth Highest in BST --- BST property and static var
 Retry --- x2 on 10/15  M 5.14 Mirror binary tree nodes --- inplace: pre-oder/post-order swaping, new: pre-oder
 Not done -x1 on 10/15  H 5.16 N-ary Tree to Binary Tree --- 
 
+Retry --- x0    10/17  H 5.99 Diameter of a Binary Tree ---
+http://www.geeksforgeeks.org/diameter-of-a-binary-tree/
 
 ----- Graph -------------------------------------------------------------------------------------------------------
 Retry --- x4 on 10/14   7.02 Minimum Spanning Tree ------- very hard --- Use PriorityQueue(Heap)
