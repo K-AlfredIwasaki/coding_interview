@@ -35,7 +35,8 @@ Array      --- 1.02 Sliding Window, 1.09 Quick sort, 1.10 Merge intervals
 --------------------------------------------------------------------------------------------------------------------
 
 Retry     x1 on 10/18    388. Longest Absolute File Path --- split, count \t and update array
-
+          x1 on 10/18     11. Container With Most Water  --- start, end approach. move shorter height to increase the area
+          x1 on 10/18    137. Single Number II
 
 
 ----- Arrays -------------------------------------------------------------------------------------------------------
