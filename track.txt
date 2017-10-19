@@ -40,6 +40,7 @@ Retry     x1 on 10/18    388. Longest Absolute File Path --- split, count \t and
 Retry     x1 on 10/18    238. Product of Array Except Self  --- forward and backword --- only multiply
           x1 on 10/18     17. Letter Combinations of a Phone Number
                 10/18    338. Counting Bits => might check better solution
+          x2 on 10/18    139. Word Break    --- 
 
 
 ----- Arrays -------------------------------------------------------------------------------------------------------
@@ -79,6 +80,10 @@ Retry --- x4 on 10/12  M 2.12 Reverse k Elements --- keys are big_head, c_tail, 
           x3 on 10/10  M 3.05 All Sum Combinations --- for loop version recursion, results.pop(), range(start, target)
 Retry --- x2 on 10/10  M 3.07 All Subsets --- key is keeping input array --- back tracking
           x2 on 10/10  M 3.10 Calculate Square Root --- key is binary search approach --- lower/upper bound
+
+----- String -------------------------------------------------------------------------------------------------------
+          
+Retry --- x2 on 10/19  M 4.04 String Segmentation 
 
 ----- Tree -------------------------------------------------------------------------------------------------------
 
