@@ -89,24 +89,24 @@ Retry --- x1 on 10/10  M 5.03 Iterative Inorder Traversal --- very similar to 5.
 Retry --- x2 on 10/13  M 5.04 Inorder Successor BST --- 1) iterative inorder traversal, 2) top down + findmin
 Easy ---  x1 on 10/8   M 5.05 Level Order Traversal of Binary Tree ---  simple BFS
 Retry --- x2 on 10/13  M 5.06 Is BST? --- one solution is min-/max-bound and the other is use global = prev
-Retry ----x1 on 10/13  H 5.07 Convert Binary Tree To Doubly Linked List --- keys are recursive + concatenation
+Retry ----x1 on 10/13  H 5.07 Convert Binary Tree To Doubly Linked List --- recursive + concatenation
 Almost -- x2 on 10/13  M 5.08 Print Tree Perimeter --- key is how not to print leaf (root.left != None, root.right != None)
 Retry --- x2 on 10/11  H 5.10 Serialize/Deserialize Binary Tree --- key is recursion for both
 Retry --- x1 on 10/14  M 5.11 Connect All Siblings --- Two trackers: one for parents and the other for children
 Retry --- x2 on 10/15  M 5.13 Nth Highest in BST --- BST property and static variable
 Retry --- x2 on 10/15  M 5.14 Mirror binary tree nodes --- inplace: pre-oder/post-order swaping, new: pre-oder
-Not done -x1 on 10/15  H 5.16 N-ary Tree to Binary Tree --- 
+Retry --- x2 on 10/19  H 5.16 N-ary Tree to Binary Tree --- Tree traversal is a key Use temp.
 
-Retry --- x0    10/17  H 5.99 Diameter of a Binary Tree ---
+Retry --- x1    10/19  H 5.99 Diameter of a Binary Tree ---
 http://www.geeksforgeeks.org/diameter-of-a-binary-tree/
 
 ----- Graph -------------------------------------------------------------------------------------------------------
-Retry --- x4 on 10/14   7.02 Minimum Spanning Tree ------- very hard --- Use PriorityQueue(Heap)
+Retry --- x4 on 10/14  H 7.02 Minimum Spanning Tree ------- very hard --- Use PriorityQueue(Heap)
 
 ----- Back Tracking -------------------------------------------------------------------------------------------------------
 
 https://stackoverflow.com/questions/18066603/fastest-way-to-search-python-dict-with-partial-keyword
-Retry ---              H 8.01 boggle                   ------ generate all possible combinations and check they are in dict
+Retry --- x1 on 10/19  H 8.01 boggle                   ------ generate all possible combinations and check they are in dict
 Retry --- x2 on 10/15  H 8.02 All Possible Parentheses ------ Keys are recursion, (if, if, if), pop, temp = current.copy() when putting in result[]
 
 ----- Dynamic Programming -------------------------------------------------------------------------------------------------------
