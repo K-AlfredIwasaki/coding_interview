@@ -30,19 +30,6 @@ Array      --- 1.02 Sliding Window, 1.09 Quick sort, 1.10 Merge intervals
 - 9.04 Game Scoring              ---  This problem is really hard for me --- The order matters!
 - 9.05 Coin Changing Problem     ---  Very similar to 9.05 --- the order doesn't matter
 
---------------------------------------------------------------------------------------------------------------------
------ LeetCode ----Medium-------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------------
-
-Retry     x1 on 10/18    388. Longest Absolute File Path --- split, count \t and update array
-          x1 on 10/18     11. Container With Most Water  --- start, end approach. move shorter height to increase the area
-          x1 on 10/18    137. Single Number II              ---
-Retry     x1 on 10/18    238. Product of Array Except Self  --- forward and backword --- only multiply
-          x1 on 10/18     17. Letter Combinations of a Phone Number
-                10/18    338. Counting Bits => might check better solution
-          x2 on 10/18    139. Word Break    --- 
-
-
 ----- Arrays -------------------------------------------------------------------------------------------------------
           x3 on 10/14  E 1.01 Binary Search --- while start <= end --- include "="
 Retry     x4 on 10/17  M 1.02 Find Maximum in Sliding Window  --- window[0] > window[1] > window[2] > .....Be careful to handle "index" or "value"
@@ -71,6 +58,7 @@ Retry     x2 on 10/15  M 2.07 Swap Nth Node with Head ------ It can be confusing
 OK        x4 on 10/12  M 2.08 Merge two sorted linkedlist
 OK        x2 on 10/12  M 2.09 Merge sort --- keys are two base cases (head == None and head.next == None) and a sequence (split, recursion, merge)
 Retry --- x4 on 10/12  M 2.12 Reverse k Elements --- keys are big_head, c_tail, p_tail
+Retry     x1 on 10/19  M 2.14 Copy linked list with arbitrary pointer    --- 1) random => old node 2) old => new_node dict --- check memory(1) solution
 
 
 ----- Math & Stats -------------------------------------------------------------------------------------------------------
