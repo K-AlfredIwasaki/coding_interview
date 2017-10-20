@@ -101,7 +101,9 @@ Retry --- x1    10/19  H 5.99 Diameter of a Binary Tree ---
 http://www.geeksforgeeks.org/diameter-of-a-binary-tree/
 
 ----- Graph -------------------------------------------------------------------------------------------------------
-Retry --- x4 on 10/14  H 7.02 Minimum Spanning Tree ------- very hard --- Use PriorityQueue(Heap)
+Retry --- x1 on 10/19  M 7.01 Clone a Directed Graph ------ At each node, copy node, and add neighbors. use completed nodes
+Retry --- x4 on 10/14  M 7.02 Minimum Spanning Tree ------- very hard --- Use PriorityQueue(Heap)
+
 
 ----- Back Tracking -------------------------------------------------------------------------------------------------------
 
