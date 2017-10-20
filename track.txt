@@ -1,14 +1,12 @@
 ---- Priorities ---------------------------------------------------------------------------------------------------
 ##1 Medium focus at LeetCode          3 per day
-##2 Codecrust Hard Problem            1 per day 
+##2 Codecrust Hard Problem            1 per day
 ##3 Interview prep for data wrangling 
 5 days to go for Tech Interview
 6 days to go for Coding Take Home
 
 ---- Schedules ---------------------------------------------------------------------------------------------------
-10/18 Wed Merge Sort / Quick Sort / Insertion Sort       --- W271 Start Work On it
-10/19 Thu  
-10/20 Fri
+10/20 Fri Quick Sort / Insertion Sort
 10/21 Sat 
 10/22 Sun Email to SmartNews
 10/23 Mon Raise Tech Interview                               W271 Due
@@ -54,10 +52,11 @@ Easy      x2 on 10/15  E 2.02 Remove Duplicates from a Linked List --- hash tabl
 Easy      x2 on 10/15  E 2.03 Delete node with a given key --- special case: remove the first node
           x2 on 10/15  M 2.04 Insertion Sort --- two linkedlist: original and new. pick node from the original and insert it to the new one by one.
           x2 on 10/12  E 2.05 Intersection Point of Two Lists
-Retry     x2 on 10/15  M 2.07 Swap Nth Node with Head ------ It can be confusing --- many pointers
-OK        x4 on 10/12  M 2.08 Merge two sorted linkedlist
-OK        x2 on 10/12  M 2.09 Merge sort --- keys are two base cases (head == None and head.next == None) and a sequence (split, recursion, merge)
-Retry --- x4 on 10/12  M 2.12 Reverse k Elements --- keys are big_head, c_tail, p_tail
+                         2.06
+Retry     x2 on 10/15  M 2.07 Swap Nth Node with Head        It can be confusing --- many pointers
+          x4 on 10/19  M 2.08 Merge two sorted linkedlist
+          x2 on 10/19  M 2.09 Merge sort ---                 Two base cases (head == None and head.next == None) and a sequence (split, recursion, merge)
+Retry     x4 on 10/12  M 2.12 Reverse k Elements             Big_head, c_tail, p_tail
 Retry     x1 on 10/19  M 2.14 Copy linked list with arbitrary pointer    --- 1) random => old node 2) old => new_node dict --- check memory(1) solution
 
 
@@ -65,13 +64,22 @@ Retry     x1 on 10/19  M 2.14 Copy linked list with arbitrary pointer    --- 1) 
           x2 on 10/8   M 3.01 Find kth permutation --- key is (k-1) / blocksize
           x3 on 10/10  M 3.02 Integer Division --- key is quotient <<= 1 (equivalent of q = q + 1) and quotient >>= 1
           x2 on 10/17  M 3.03 Pythagorean Triplets --- Sort and then Binary search approach for each item from the tail
+                         3.04
           x3 on 10/10  M 3.05 All Sum Combinations --- for loop version recursion, results.pop(), range(start, target)
+                         3.06
 Retry --- x2 on 10/10  M 3.07 All Subsets --- key is keeping input array --- back tracking
+                         3.08
+                         3.09
           x2 on 10/10  M 3.10 Calculate Square Root --- key is binary search approach --- lower/upper bound
 
 ----- String -------------------------------------------------------------------------------------------------------
-          
+                         4.01
+                         4.02
+                         4.03
 Retry --- x2 on 10/19  M 4.04 String Segmentation 
+                         4.05
+                         4.06
+                         4.07
 
 ----- Tree -------------------------------------------------------------------------------------------------------
 
@@ -91,10 +99,13 @@ Easy ---  x1 on 10/8   M 5.05 Level Order Traversal of Binary Tree ---  simple B
 Retry --- x2 on 10/13  M 5.06 Is BST? --- one solution is min-/max-bound and the other is use global = prev
 Retry ----x1 on 10/13  H 5.07 Convert Binary Tree To Doubly Linked List --- recursive + concatenation
 Almost -- x2 on 10/13  M 5.08 Print Tree Perimeter --- key is how not to print leaf (root.left != None, root.right != None)
+                         5.09
 Retry --- x2 on 10/11  H 5.10 Serialize/Deserialize Binary Tree --- key is recursion for both
 Retry --- x1 on 10/14  M 5.11 Connect All Siblings --- Two trackers: one for parents and the other for children
+                         5.12
 Retry --- x2 on 10/15  M 5.13 Nth Highest in BST --- BST property and static variable
 Retry --- x2 on 10/15  M 5.14 Mirror binary tree nodes --- inplace: pre-oder/post-order swaping, new: pre-oder
+                         5.15
 Retry --- x2 on 10/19  H 5.16 N-ary Tree to Binary Tree --- Tree traversal is a key Use temp.
 
 Retry --- x1    10/19  H 5.99 Diameter of a Binary Tree ---
@@ -103,13 +114,15 @@ http://www.geeksforgeeks.org/diameter-of-a-binary-tree/
 ----- Graph -------------------------------------------------------------------------------------------------------
 Retry --- x1 on 10/19  M 7.01 Clone a Directed Graph ------ At each node, copy node, and add neighbors. use completed nodes
 Retry --- x4 on 10/14  M 7.02 Minimum Spanning Tree ------- very hard --- Use PriorityQueue(Heap)
-
+                         7.03
 
 ----- Back Tracking -------------------------------------------------------------------------------------------------------
 
 https://stackoverflow.com/questions/18066603/fastest-way-to-search-python-dict-with-partial-keyword
 Retry --- x1 on 10/19  H 8.01 boggle                   ------ generate all possible combinations and check they are in dict
 Retry --- x2 on 10/15  H 8.02 All Possible Parentheses ------ Keys are recursion, (if, if, if), pop, temp = current.copy() when putting in result[]
+                         8.03
+                         8.04
 
 ----- Dynamic Programming -------------------------------------------------------------------------------------------------------
 Retry                  9.01 Fibonacci numbers --- key is to store n_1 and n_2
@@ -117,12 +130,16 @@ Retry --- x1 on        9.02 Largest Sum Subarray --- Similar to 1.02, 1.08
                        9.03 MaxSum Subsequence - Nonadjacent Elements -------- Key is result = max(n_1, n_2 + current_num)
 Retry --- x1 on 10/15  9.04 Game Scoring ---                          key is table or dp. the order matters
 Retry --- x2 on 10/15  9.05 Coin Changing Problem --- Two version --- one is recursion (back tracking) and the other is dynamic programming (table) same to 9.04(sequence does matter)
-
+                       9.06
+                       9.07
 
 ----- Miscellaneous -------------------------------------------------------------------------------------------------------
+                       10.01
 Almost --- x1 on 10/10 10.02 Make Columns and Rows Zeros --- no efficient solution --- key is find index of zero cols and rows
 Almost --- x1 on 10/10 10.03 Search in a Matrix --- key is to start from the top left to utilize its unique property (=> down is higher, right is lower)
-
+                       10.04
+                       10.05
+                       10.06
 
 
 
