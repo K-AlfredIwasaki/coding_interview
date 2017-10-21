@@ -70,15 +70,15 @@ Retry     x1 on 10/19  M 2.14 Copy linked list with arbitrary pointer    --- 1) 
 Retry --- x2 on 10/10  M 3.07 All Subsets --- key is keeping input array --- back tracking
                          3.08
                          3.09
-          x2 on 10/10  M 3.10 Calculate Square Root --- key is binary search approach --- lower/upper bound
+          x2 on 10/10  M 3.10 Calculate Square Root ---           binary search approach --- lower/upper bound
 
 ----- String -------------------------------------------------------------------------------------------------------
                          4.01
                          4.02
                          4.03
 Retry --- x2 on 10/19  M 4.04 String Segmentation 
-                         4.05
-                         4.06
+                         4.05 
+          x2 on 10/20  M 4.06 Find all palindrome substrings --- odd/even version. two functions
                          4.07
 
 ----- Tree -------------------------------------------------------------------------------------------------------
@@ -103,13 +103,19 @@ Almost -- x2 on 10/13  M 5.08 Print Tree Perimeter --- key is how not to print l
 Retry --- x2 on 10/11  H 5.10 Serialize/Deserialize Binary Tree --- key is recursion for both
 Retry --- x1 on 10/14  M 5.11 Connect All Siblings --- Two trackers: one for parents and the other for children
                          5.12
-Retry --- x2 on 10/15  M 5.13 Nth Highest in BST --- BST property and static variable
-Retry --- x2 on 10/15  M 5.14 Mirror binary tree nodes --- inplace: pre-oder/post-order swaping, new: pre-oder
-                         5.15
-Retry --- x2 on 10/19  H 5.16 N-ary Tree to Binary Tree --- Tree traversal is a key Use temp.
+Retry --- x2 on 10/15  M 5.13 Nth Highest in BST            BST property and static variable
+Retry --- x2 on 10/15  M 5.14 Mirror binary tree nodes      Inplace: pre-oder/post-order swaping, new: pre-oder
+Retry --- x2 on 10/20  M 5.15 Delete zero sum sub-trees     Track only sum of sub-trees
+Retry --- x2 on 10/19  H 5.16 N-ary Tree to Binary Tree     Tree traversal is a key Use temp
 
 Retry --- x1    10/19  H 5.99 Diameter of a Binary Tree ---
 http://www.geeksforgeeks.org/diameter-of-a-binary-tree/
+
+----- Stacks and Queues -------------------------------------------------------------------------------------------------------
+Retry --- x2 on 10/20  M 6.01 Stack using Queues            Two solutions: Optimize push or pop. For deque, enqueue = append, dequeue = popleft
+                         6.02
+                         6.03
+
 
 ----- Graph -------------------------------------------------------------------------------------------------------
 Retry --- x1 on 10/19  M 7.01 Clone a Directed Graph ------ At each node, copy node, and add neighbors. use completed nodes
@@ -126,7 +132,7 @@ Retry --- x2 on 10/15  H 8.02 All Possible Parentheses ------ Keys are recursion
 
 ----- Dynamic Programming -------------------------------------------------------------------------------------------------------
 Retry                  9.01 Fibonacci numbers --- key is to store n_1 and n_2
-Retry --- x1 on        9.02 Largest Sum Subarray --- Similar to 1.02, 1.08
+Retry --- x2 on 10/20  9.02 Largest Sum Subarray                           Current_max and Global_max. Simple for loop
                        9.03 MaxSum Subsequence - Nonadjacent Elements -------- Key is result = max(n_1, n_2 + current_num)
 Retry --- x1 on 10/15  9.04 Game Scoring ---                          key is table or dp. the order matters
 Retry --- x2 on 10/15  9.05 Coin Changing Problem --- Two version --- one is recursion (back tracking) and the other is dynamic programming (table) same to 9.04(sequence does matter)
@@ -137,7 +143,7 @@ Retry --- x2 on 10/15  9.05 Coin Changing Problem --- Two version --- one is rec
                        10.01
 Almost --- x1 on 10/10 10.02 Make Columns and Rows Zeros --- no efficient solution --- key is find index of zero cols and rows
 Almost --- x1 on 10/10 10.03 Search in a Matrix --- key is to start from the top left to utilize its unique property (=> down is higher, right is lower)
-                       10.04
+Retry            10/20 10.04 LRU Cache              Hash table + Double linked list
                        10.05
                        10.06
 
