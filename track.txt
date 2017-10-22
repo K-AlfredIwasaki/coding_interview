@@ -1,3 +1,5 @@
+Calm down!!! Let's write down smaller problems to understand the problem.
+
 ---- Priorities ---------------------------------------------------------------------------------------------------
 ##1 Medium focus at LeetCode          3 per day
 ##2 Codecrust Hard Problem            1 per day
@@ -6,12 +8,17 @@
 6 days to go for Coding Take Home
 
 ---- Schedules ---------------------------------------------------------------------------------------------------
-10/20 Fri Quick Sort / Insertion Sort
-10/21 Sat 
+
 10/22 Sun Email to SmartNews
 10/23 Mon Raise Tech Interview                               W271 Due
 10/24 Tue Super prep for Interview / Alumni Meetup
 10/25 Wed SmartNews Take Home
+
+
+------ Master DP problems -----------------------------------------------------------------------------------------
+Master KnapSack Problem at Youtube
+Then => Subset Sum Problem at GeeksforGeeks
+Then => Perfect Sum Problem (Permutation problem) at GeeksforGreeks
 
 
 ----- Important Problems -------------------------------------------------------------------------------------------
@@ -19,7 +26,10 @@ Tree       --- 5.10 Serialize, 5.03 Iterative Inorder Traversal, 5.06 Is BST? 5.
 LinkedList --- 2.04 Insertion sort, 2.09 Merge sort, 2.12 Reverse k Elements
 Array      --- 1.02 Sliding Window, 1.09 Quick sort, 1.10 Merge intervals
 
------ Summarize --- Perumutation -----------------------------------------------------------------------------------
+------Summarize --- min/max, shortest/longest tpye questions ---------------------------------------------------
+
+
+----- Summarize --- Perumutation(non-order)/combination (order mattesr) -----------------------------------------------------------------------------------
 - 3.01 Find kth permutation      ---  (k-1) / blocksize
 - 3.04 All Sum Combinations      ---  for loop version recursion, results.pop(), range(start, target)
 - 3.06 Permute String            ---  back tracking
