@@ -20,6 +20,9 @@ Master KnapSack Problem at Youtube
 Then => Subset Sum Problem at GeeksforGeeks
 Then => Perfect Sum Problem (Permutation problem) at GeeksforGreeks
 
+------ Math Problems ----------------------------------------------------------------------------------------------
+- think about factor, odd/even, 
+
 
 ----- Important Problems -------------------------------------------------------------------------------------------
 Tree       --- 5.10 Serialize, 5.03 Iterative Inorder Traversal, 5.06 Is BST? 5.99 Diameter
